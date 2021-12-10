@@ -1,0 +1,390 @@
+.home{
+    text-decoration:none;
+    font-size: 20px;
+    position:absolute;
+    right:500px;
+    color:antiquewhite;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .home{
+        position:absolute;
+        left:180px;
+        top:10px;
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .home{
+        position:absolute;
+        right:320px;
+        top:10px;
+        font-size: 14px;
+    }
+}
+.region{
+    text-decoration:none;
+    font-size: 20px;
+    position:absolute;
+    right:350px;
+    color:antiquewhite;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .region{
+        position:absolute;
+        left:225px;
+        top:10px;
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .region{
+        position:absolute;
+        right:220px;
+        top:10px;
+        font-size: 14px;
+    }
+}
+.about{
+    text-decoration:none;
+    font-size: 20px;
+    position:absolute;
+    right:200px;
+    color:antiquewhite;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .about{
+        position:absolute;
+        left:275px;
+        top:10px;
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .about{
+        position:absolute;
+        right:120px;
+        top:10px;
+        font-size: 14px;
+    }
+}
+#bg{
+    background-image: url("./shara_desert.jpg");
+    height:750px;
+    transition-property: height;
+    transition-duration: 1s;
+    
+}
+@media screen and (min-width:855px) and (max-width:900px){
+    #bg{
+        height:1000px;
+        width:1000px;
+    }
+}
+#bg:hover{
+    transform:translateY(-10px) ;
+}
+
+
+.menu{
+
+    position:absolute;
+    right:120px;
+    height:25px;
+    width:30px;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .menu{
+        position:absolute;
+        left:320px;
+        top:10px;
+        height:13px;
+        width:15px;
+    }
+}
+@media screen and (min-width:855px) and (max-width:900px){
+   .menu{
+       position:absolute;
+       right:50px;
+       top:10px;
+   } 
+}
+.logo{
+    position:absolute;
+    left:100px;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .logo{
+        position:absolute;
+        left:40px;
+        top:10px;
+        height:30px;
+        width:30px;
+    }
+}
+@media screen and (min-width:855px) and (max-width:900px){
+    .logo{
+        margin-top:10px;
+    }
+}
+.title{
+    font-size: 90px;
+    font-weight: bolder;
+    color:antiquewhite;
+    position:absolute;
+    top:250px;
+    left:100px;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .title{
+        font-size: 22px;
+        position:absolute;
+        top:20px;
+        left:30px;
+        color:fuchsia;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .title{
+        font-size:50px;
+        position:absolute;
+        top:20px;
+        color:blue;
+    }
+}
+#text{
+    position:absolute;
+    bottom:180px;
+    left:100px;
+    color:antiquewhite;
+    line-height:30%;
+
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    #text{
+        font-size: 10px;
+        position:absolute;
+        top:60px;
+        left:30px;
+        color:hotpink;
+
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    #text{
+        font-size:16px;
+        position:absolute;
+        top:120px;
+        color:blueviolet;
+    }
+}
+button{
+    width:200px;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+    button{
+        width:70px;
+        height:20px;
+        font-size: 8px;
+        position: absolute;
+        top:40px;
+    }
+}
+.box1{
+     border:2px solid red;
+     border-radius:20px;
+     height:200px;
+     width:200px;
+     text-align: center;
+     color:black;
+     line-height:1%;
+     transition-property: height;
+    transition-duration: 1s;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .box1{
+          height:100px;
+          width:250px;
+          position:absolute;
+          left:50px;
+          top:100px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .box1{
+        width:400px;
+        height:150px;
+        margin-top:10px;
+        margin-left: 80px;
+    }
+}
+.box1:hover{
+        transform:translateY(-10px) ;
+}
+.b1{
+    background-image:url("./pic-1.png") ;
+    background-size : 200px , 200px;
+   
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .b1{
+        background-size: 300px 100px;
+        background-repeat: no-repeat;
+    }
+}
+.box2{
+    border:2px solid red;
+    border-radius:20px;
+    height:200px;
+    width:200px;
+    text-align: center;
+    color:black;
+    line-height:1%;
+    transition-property:  height;
+    transition-duration: 1s;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .box2{
+          height:100px;
+          width:250px;
+          position:absolute;
+          left:50px;
+          top:220px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .box2{
+        width:400px;
+        height:150px;
+        margin-top:10px;
+        margin-left: 80px;
+    }
+}
+.box2:hover{
+    transform:translateY(-10px) ;
+}
+
+.b2{
+    background-image:url("./pic-2.png");
+    background-size : 200px , 200px;
+}
+.box3{
+    border:2px solid red;
+     border-radius:20px;
+     height:200px;
+     width:200px;
+     text-align: center;
+     color:black;
+     line-height:1%;
+     transition-property: height;
+     transition-duration: 1s;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .box3{
+          height:100px;
+          width:250px;
+          position:absolute;
+          left:50px;
+          top:310px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .box3{
+        width:400px;
+        height:150px;
+        margin-top:10px;
+        margin-left: -40px;
+    }
+}
+.box3:hover{
+    transform:translateY(-10px) ;
+}
+
+
+.b3{
+    background-image:url("./pic-3.png");
+    background-size : 200px , 200px;
+}
+
+.box4{
+    border:2px solid red;
+    border-radius:20px;
+    height:200px;
+    width:200px;
+    text-align: center;
+    color:black;
+    line-height:1%;
+    transition-property: height;
+    transition-duration: 1s;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .box4{
+          height:100px;
+          width:250px;
+          position:absolute;
+          left:50px;
+          top:430px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .box4{
+        width:400px;
+        height:150px;
+        position:relative;
+        top:170px;
+        left: -410px;
+    }
+}
+.box4:hover{
+    transform:translateY(-10px) ;
+}
+.b4{
+    background-image:url("./pic-4.png");
+    background-size : 200px , 200px;
+}
+#image1{
+    display:grid;
+    grid-template-columns: 250px 400px;
+    justify-content: right;
+    position: relative;
+    top:70px;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    #image1{
+        display: inline-block;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    #image1{
+        display:inline-block;
+        position:relative;
+        top:300px;
+        left:200px;
+    }
+}
+#image2{
+    display:grid;
+    grid-template-columns: 250px 400px;
+    justify-content: right;
+    position: relative;
+    bottom: -100px;
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+    #image2{
+        display:inline-block;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    #image2{
+        display:flex;
+        justify-content: center;
+        position:relative;
+        top:300px;
+        left:205px;
+    }
+}
